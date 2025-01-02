@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>form 태그 - 실습</title>
+    </head>
+    <body>
+        <form>
+            <div style="border: 1px solid">
+                <div>
+                    <span>
+                        <a href="https://www.naver.com/"
+                            ><img src="naver.jpg" alt="a" width="100px" /></a
+                        ><br />
+                    </span>
+                    <span>
+                        <label style="align-content: flex-end"
+                            >실명 인증된 아이디로 가입<input type="checkbox"
+                        /></label>
+                    </span>
+                </div>
+                <div>
+                    <label
+                        ><input type="text" placeholder="아이디" /><br
+                    /></label>
+                    <label
+                        ><input type="password" placeholder="비밀번호" /><br
+                    /></label>
+                    <label
+                        ><input
+                            type="text"
+                            placeholder="[선택] 이메일주소" /><br
+                    /></label>
+                </div>
+                <div>
+                    <label
+                        ><input
+                            type="text"
+                            name=""
+                            id=""
+                            placeholder="이름" /><br
+                    /></label>
+                    <label
+                        ><input
+                            type="text"
+                            name=""
+                            id=""
+                            placeholder="생년월일" /><br
+                    /></label>
+                    <label
+                        ><select name="telecom" id="">
+                            <option value="init" selected>통신사 선택</option>
+                            <option value="T">SKT</option>
+                            <option value="K">KT</option>
+                            <option value="U">LG U+</option>
+                            <option value="TR">SKT 알뜰폰</option>
+                            <option value="KR">KT 알뜰폰</option>
+                            <option value="UR">LG U+ 알뜰폰</option></select
+                        ><br
+                    /></label>
+                </div>
+                <div>
+                    <div
+                        style="
+                            width: 200px;
+                            height: 30px;
+                            border: solid 1px;
+                            align-content: center;
+                            text-align: center;
+                        "
+                    >
+                        <label
+                            ><input type="radio" name="gen" id="남자" /></label
+                        >남자
+                        <label
+                            ><input type="radio" name="gen" id="여자" /></label
+                        >여자
+                    </div>
+
+                    <div
+                        style="
+                            width: 200px;
+                            height: 30px;
+                            border: solid 1px;
+                            align-content: center;
+                            text-align: center;
+                        "
+                    >
+                        <label
+                            ><input
+                                type="radio"
+                                name="nat"
+                                id="내국인"
+                            />내국인</label
+                        >
+                        <label
+                            ><input
+                                type="radio"
+                                name="nat"
+                                id="외국인"
+                            />외국인</label
+                        >
+                    </div>
+                </div>
+                <label
+                    ><input
+                        type="text"
+                        name=""
+                        id="tel"
+                        placeholder="휴대전화번호" /><br
+                /></label>
+                <div style="width: 50%">
+                    <fieldset>
+                        <label
+                            ><input
+                                type="checkbox"
+                                name="약관 동의"
+                                value=""
+                            />[필수] 인증 약관 전체동의</label
+                        >
+                    </fieldset>
+                </div>
+
+                <button>인증 요청</button>
+            </div>
+        </form>
+    </body>
+</html>

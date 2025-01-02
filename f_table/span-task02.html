@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>셀병합2</title>
+        <style>
+            caption {
+                text-align: center;
+                text-decoration: solid;
+            }
+            table,
+            tr,
+            th,
+            td {
+                border: 5px seagreen solid;
+                width: 400px;
+                margin: 0 auto;
+                border-collapse: collapse;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>
+                <b>회사 수익 테이블</b>
+            </caption>
+            <tr>
+                <th>거래처<b></b></th>
+                <th>흑자<b></b></th>
+                <th>적자<b></b></th>
+            </tr>
+            <tr>
+                <td>회사1</td>
+                <td>10,000,000</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>회사2</td>
+                <td></td>
+                <td>5,000,000</td>
+            </tr>
+            <tr>
+                <td>회사3</td>
+                <td></td>
+                <td>7,000,000</td>
+            </tr>
+            <tr>
+                <td rowspan="2">총 계</td>
+                <td>10,000,000</td>
+                <td>12,000,000</td>
+            </tr>
+            <tr>
+                <td colspan="2">-2,000,000</td>
+            </tr>
+        </table>
+    </body>
+</html>

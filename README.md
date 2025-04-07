@@ -141,11 +141,11 @@ HTML 요소의 종류
 	* 새로운 영역을 만들지 않고 작성한 단락 내에 나타남.
 	* 안에 있는 내용만큼만 영역을 차지하고, 기본적으로 가지고 있는 영역은 없음.
 		
-		[코드]
-		<span>apple</span> <strong>banana</strong>
+	[코드]
+	<span>apple</span> <strong>banana</strong>
 
-		[화면]
-		applebanana
+	[화면]
+	applebanana
 
 	* 영역이 정확히 구분되어 있지 않기 때문에, witdth 와 height 속성을 임의로 부여할 수 없음.
 	* margin-top, margin-bottom 속성을 부여할 수 없음.(블록 외부의 여백)
